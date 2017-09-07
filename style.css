@@ -1,10 +1,19 @@
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+#main-header {
+  background-color: pink;
+  width:auto;
+  height:auto;
+}
 
+.site-title {
+  font: italic 400 40px/60px 'Playfair Display', serif ;
+  font-color:  gray;
+  text-align: left;
+}
 
-
-
-
-
- 
+.tag-line {
+  font-size: 20 px;
+  float: right;
+}
