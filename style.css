@@ -1,19 +1,114 @@
+
+
 /* ----------------------------------- *
  * Your Styles Here
  * ----------------------------------- */
+
 #main-header {
-  background-color: pink;
-  width:auto;
-  height:auto;
+  background: rgba(255,193,112,1);
+background: -moz-linear-gradient(left, rgba(255,193,112,1) 36%, rgba(255,178,79,1) 66%, rgba(255,162,41,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(36%, rgba(255,193,112,1)), color-stop(66%, rgba(255,178,79,1)), color-stop(100%, rgba(255,162,41,1)));
+background: -webkit-linear-gradient(left, rgba(255,193,112,1) 36%, rgba(255,178,79,1) 66%, rgba(255,162,41,1) 100%);
+background: -o-linear-gradient(left, rgba(255,193,112,1) 36%, rgba(255,178,79,1) 66%, rgba(255,162,41,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,193,112,1) 36%, rgba(255,178,79,1) 66%, rgba(255,162,41,1) 100%);
+background: linear-gradient(to right, rgba(255,193,112,1) 36%, rgba(255,178,79,1) 66%, rgba(255,162,41,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc170', endColorstr='#ffa229', GradientType=1 );
+  width: 1200px;
+  height: 250px;
+  border-radius: 25px;
+}
+
+#viking-ship {
+  width: 30%;
+  height: auto;
+  position: relative;
+  left: 400px;
+  top: -70px;
 }
 
 .site-title {
   font: italic 400 40px/60px 'Playfair Display', serif ;
   font-color:  gray;
-  text-align: left;
+  position: relative;
+  top: 20px;
+  left: 30px;
 }
 
-.tag-line {
-  font-size: 20 px;
+.tagline {
+  font: italic 400 20px/40px 'Playfair Display', serif;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  bottom: 40px;
+  left: 800px;
+}
+
+#main-content {
   float: right;
+  padding: 0 150px 0 0;
+  top: 32px;
+  left: 350px;
+  width: 60%;
+}
+
+.main-content-section {
+  
+}
+
+.section-title {
+  font: bold 600 20px/40px 'Playfair Display', serif;
+}
+
+.section-content {
+
+}
+
+p {
+  text-transform: lowercase;
+}
+
+.citation {
+
+}
+
+.sidebar {
+  display: inline-block;
+  float: left;
+  top: 32px;
+  left: 32px;
+  width: 30%;
+}
+
+.sidebar-title {
+  font: bold 600 20px/40px 'Playfair Display', serif;
+  padding: 16px 0 0 50px;
+}
+
+.sidebar-nav {
+  padding: 0 0 0 30px;
+  top: 32px;
+  left: 32px;
+}
+
+.nav-links {
+  line-height: 50px;
+}
+
+.nav-link {
+  line-height: 100px;
+  font: bold 20px 'Playfair Display', serif;
+  text-decoration: none;
+  color:  black;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.nav-link:visited{
+  color: grey;
+}
+
+.nav-link-list-item {
+  list-style-type: none;
 }
